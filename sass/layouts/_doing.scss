@@ -1,0 +1,41 @@
+.doing {
+    @media screen and (max-width: 1199px) {
+    display: none;            
+    }
+
+    padding-top: 0;
+
+    &__list {
+        display: flex;
+    }
+    
+    &__list:last-child {
+        margin-right: 0;
+    }
+    
+    &__item {
+        margin-right: 30px;
+    }
+    
+    &__label {
+        position: relative;
+    }
+    
+    &__title {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 70px;
+        min-width: 100%;
+        background: rgba(47, 48, 58, 0.8);
+        font-weight: 700;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--simply-white);
+    }
+}
+
